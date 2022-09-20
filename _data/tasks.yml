@@ -1,0 +1,71 @@
+- 01-lab:
+  id: 01-lab
+  title: Lab 01 - Project Creation
+  directory: _01-lab/
+  progressBar: on
+  tasks: 
+    - title: Import PackScheduler Project
+      page: 01-lab-import
+    - title: Requirements
+      page: 01-lab-requirements
+    - title: Design
+      page: 01-lab-design
+    - title: Implement Student
+      page: 01-lab-student
+    - title: Implement StudentRecordIO
+      page: 01-lab-studentrecordio
+    - title: StudentDirectory Overview
+      page: 01-lab-studentdirectory
+    - title: StudentDirectoryPanel Overview
+      page: 01-lab-studentdirectorypanel
+    - title: Unit and System Test
+      page: 01-lab-test
+    - title: Deploy
+      page: 01-lab-deploy
+- 02-lab:
+  id: 02-lab
+  title: Lab 02 - Software Engineering Best Practices
+  directory: _02-lab/
+  progressBar: on
+  tasks: 
+    - title: Requirements
+      page: 02-lab-requirements
+    - title: Design
+      page: 02-lab-design
+    - title: Tools
+      page: 02-lab-tools
+    - title: Unit Test Student
+      page: 02-lab-student
+    - title: Unit Test StudentRecordIO
+      page: 02-lab-studentrecordio
+    - title: Unit Test Student Directory
+      page: 02-lab-studentdirectory
+    - title: System Test
+      page: 02-lab-test
+    - title: Deploy
+      page: 02-lab-deploy
+- 03-lab:
+  id: 03-lab
+  title: Lab 03 - Collections
+  directory: _03-lab/
+  progressBar: on
+  tasks: 
+    - title: Requirements
+      page: 03-lab-requirements
+    - title: Design
+      page: 03-lab-design
+    - title: CSC217Collections Library
+      page: 03-lab-library
+    - title: Testing CSC217Collections Library
+      page: 03-lab-library-test
+    - title: Implement Comparable in Student
+      page: 03-lab-student
+    - title: Use SortedList in StudentRecordIO
+      page: 03-lab-studentrecordio
+    - title: Use SortedList in StudentDirectory
+      page: 03-lab-studentdirectory
+    - title: System Test
+      page: 03-lab-test
+    - title: Deploy
+      page: 03-lab-deploy
+      

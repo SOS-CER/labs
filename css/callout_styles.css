@@ -1,0 +1,163 @@
+.callout-learningOutcomes {
+	position: relative;
+	width: 90%
+	border-style: none;
+	background-color: #bb3434;
+	color: #000000;
+	margin: 8px 0px;
+	
+	/* Fixes the issue where a floated element has content taller than the container holding it */
+	overflow: auto;
+}
+
+
+.callout-bestPractices {
+	position: relative;
+	width: 90%
+	border-style: none;
+	background-color: #209696;
+	color: #000000;
+	margin: 8px 0px;
+	
+	/* Fixes the issue where a floated element has content taller than the container holding it */
+	overflow: auto;
+}
+
+
+.callout-tools {
+	position: relative;
+	width: 90%
+	border-style: none;
+	background-color: #4082bd;
+	color: #000000;
+	margin: 8px 0px;
+	
+	/* Fixes the issue where a floated element has content taller than the container holding it */
+	overflow: auto;
+}
+
+
+.callout-conceptualKnowledge {
+	position: relative;
+	width: 90%
+	border-style: none;
+	background-color: #5f497a;
+	color: #000000;
+	margin: 8px 0px;
+	
+	/* Fixes the issue where a floated element has content taller than the container holding it */
+	overflow: auto;
+}
+
+
+.callout-reminder {
+	position: relative;
+	width: 90%
+	border-style: none;
+	background-color: #ccc;
+	color: #000000;
+	margin: 8px 0px;
+	
+	/* Fixes the issue where a floated element has content taller than the container holding it */
+	overflow: auto;
+}
+
+
+
+
+
+.callout-h1 {
+	font-size: 24px;
+	font-weight: bold;
+	text-align: left;
+	padding: 4px 0px 10px 0px;
+}
+
+.callout-h2{
+	font-size: 20px;
+	font-weight: bold;
+	text-align: left;
+	padding: 4px 0px 10px 0px;
+}
+
+.callout-leftCol {
+	min-width: 54px;
+	max-width: 54px;
+	width: 10%;
+	border-style: none;
+	color: #ffffff;
+	padding: 0px;
+	margin: auto;
+	clear: left;	/* Do not allow anything to float to the left of this */
+	float: left;	
+}
+
+.callout-leftCol div, img {
+	padding: 0px 0px 8px 8px;
+}
+
+.callout-rightCol-learningOutcomes {
+	position: relative;
+	border-style: none;
+	height: 100%;
+	background-color: #f4cccc;
+	color: #000000;
+	padding: 2px 10px;
+	margin-left: 60px;
+	clear: right;
+	text-align: left;
+	font-family: "UniversRoman", Arial, sans-serif;	/* Can comment out to inherit page fonts */
+}
+
+.callout-rightCol-bestPractices {
+	position: relative;
+	border-style: none;
+	height: 100%;
+	background-color: #B1E3E3;
+	color: #000000;
+	padding: 2px 10px;
+	margin-left: 60px;
+	clear: right;
+	text-align: left;
+	font-family: "UniversRoman", Arial, sans-serif;	/* Can comment out to inherit page fonts */
+}
+
+.callout-rightCol-tools {
+	position: relative;
+	border-style: none;
+	height: 100%;
+	background-color: #cfe2f3;
+	color: #000000;
+	padding: 2px 10px;
+	margin-left: 60px;
+	clear: right;
+	text-align: left;
+	font-family: "UniversRoman", Arial, sans-serif;	/* Can comment out to inherit page fonts */
+}
+
+.callout-rightCol-conceptualKnowledge {
+	position: relative;
+	border-style: none;
+	height: 100%;
+	background-color: #d9d2e9;
+	color: #000000;
+	padding: 2px 10px;
+	margin-left: 60px;
+	clear: right;
+	text-align: left;
+	font-family: "UniversRoman", Arial, sans-serif;	/* Can comment out to inherit page fonts */
+}
+
+.callout-rightCol-reminder {
+	position: relative;
+	border-style: none;
+	height: 100%;
+	background-color: #f2f2f2;
+	color: #000000;
+	padding: 2px 10px;
+	margin-left: 60px;
+	clear: right;
+	text-align: left;
+	font-family: "UniversRoman", Arial, sans-serif;	/* Can comment out to inherit page fonts */
+}
+

@@ -1,0 +1,71 @@
+organization: SOS-CER
+repository: SOS-CER/labs
+contact: sarah_heckman@ncsu.edu
+repo: labs
+baseurl: https://sos-cer.github.io/labs
+github: [metadata]
+title: CSC 217 Labs
+
+copyright-text: North Carolina State University Computer Science Faculty. All rights reserved. 
+
+markdown: kramdown
+kramdown:
+  syntax_highlighter: rouge
+  syntax_highlighter_opts:
+    css_class: 'highlight'
+    span:
+      line_numbers: false
+    block:
+      line_numbers: true
+
+show_downloads: false
+google_analytics:
+theme:
+
+exclude: [vendor]
+
+defaults:
+  -
+    scope:
+      path: "" # an empty string here means all files in the project
+    values:
+      layout: "page"
+
+
+collections:  
+    00-lab:
+        sort_by: task
+        output: true 
+    01-lab:
+        output: true
+    02-lab:
+        output: true
+    03-lab:
+        output: true
+    04-lab:
+        output: true
+    05-lab:
+        output: true
+    06-lab:
+        output: true
+    07-lab:
+        output: true
+    08-lab:
+        output: true
+    09-lab:
+        output: true
+    10-lab:
+        output: true
+    11-lab:
+        output: true
+    12-lab:
+        output: true
+    13-lab:
+        output: true
+    cbe:
+        output: true
+         
+plugins_dir: ['jekyll-relative-links', 'jekyll/scholar']
+  
+scholar:
+    style: ieee

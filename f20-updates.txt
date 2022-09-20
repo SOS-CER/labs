@@ -1,0 +1,151 @@
+Update suggestions: https://docs.google.com/spreadsheets/d/1rvPrapxvcF_CRZacMk3P5sJOpKjfYlLTDv2bOkdanhg/edit#gid=0
+
+General Updates
+ - Update SE-Materials links
+	https://pages.github.ncsu.edu/engr-csc-software-development/software-lifecycle
+	https://pages.github.ncsu.edu/engr-csc-software-development/practices-tools/overview/
+ - Update rubrics to use includes (see Lab 01)
+ - Update icons on index for the lab
+ - Update lab slides
+ 
+
+
+# Lab 00
+DONE - Updates for F20
+
+# Lab 01
+DONE - Updated StudentDirectory, StudentDirectoryPanel, StudentDirectoryTest
+DONE - Updated base project
+
+
+# Lab 02
+DONE - Changes from Lab 1
+DONE - Updates to rubric to add extra credit
+
+
+# Lab 03
+ - Changes from Lab 1
+	- StudentDirectoryTest - don't use ts files, add new invalid test
+	- StudentDirectory - fix equals and update addStudent to use second Student constructor with default max hours
+	- StudentDirectoryPanel - update general GUI bug and documentation, use new default student constructor (remove error message)
+	- StudentTest - add a few more tests for equality
+	- Similar changes to TS tests
+ - Update requirements to remove UC2, S9 and S10
+	- from Lab 01 and Lab 02
+	- this let's us use the other Student constructor.
+ - Use the new CSC217Collections.jar and update all of the imports for the new package.
+ - Update CSC 216 -> CSC 217 in writeup
+ - FindBugs -> SpotBugs
+
+
+# Lab 04
+DONE - Changes from Lab 1
+DONE - Update requirements to remove UC2, S9 and S10
+	- from Lab 01 and Lab 02
+	- this let's us use the other Student constructor.
+DONE - Use the new CSC217Collections.jar and update all of the imports for the new package.
+DONE - Update CSC 216-> CSC 217 in writeup
+DONE - Update all the Course tests
+
+# Lab 05
+DONE - Changes from Lab 1
+DONE - Update requirements to remove UC2, S9 and S10
+	- from Lab 01 and Lab 02
+	- this let's us use the other Student constructor.
+DONE - Use the new CSC217Collections.jar and update all of the imports for the new package.
+ - Update CSC 216-> CSC 217 in writeup
+DONE - Update all the Course tests
+DONE - Update GUI to use RegistrationManager not RegistrationManagerStudent
+DONE - Update tests to use spaces in Course name
+DONE - Test that GUI works
+DONE - Update design
+DONE - Add . to error statement in UC 0, E2.
+
+# Lab 06
+ - Changes from Lab 1
+DONE - Update requirements to remove UC2, S9 and S10
+DONE	- from Lab 01 and Lab 02
+DONE	- this let's us use the other Student constructor.
+ - Use the new CSC217Collections.jar and update all of the imports for the new package.
+ - Update CSC 216-> CSC 217 in writeup
+NO LONGER THE CASE - Going back to different naming for Courses b/c of FSM - Update all the Course tests
+ - Test that GUI works
+ - Update design
+DONE - Add . to error statement in UC 0, E2.
+DONE - Comment out /remove the tests related to max credits. 
+
+# Lab 07
+DONE - Changes from Lab 1
+DONE - Update requirements to remove UC2, S9 and S10
+	- from Lab 01 and Lab 02
+	- this let's us use the other Student constructor.
+DONE - Use the new CSC217Collections.jar and update all of the imports for the new package.
+ - Update CSC 216-> CSC 217 in writeup
+DONE - Update all the Course tests
+DONE - Test that GUI works
+ - Update design
+DONE - Add . to error statement in UC 0, E2.
+
+
+# Lab 08
+DONE - Changes from Lab 1
+DONE - Update requirements to remove UC2, S9 and S10
+	- from Lab 01 and Lab 02
+	- this let's us use the other Student constructor.
+DONE - Use the new CSC217Collections.jar and update all of the imports for the new package.
+DONE - Update CSC 216-> CSC 217 in writeup
+DONE - Update all the Course tests
+DONE - Update GUI to use RegistrationManager not RegistrationManagerStudent
+DONE - Test that GUI works
+D - Update design
+ - Add . to error statement in UC 0, E2.
+
+# Lab 09
+DONE - Update requirements to remove UC2, S9 and S10
+	- from Lab 01 and Lab 02
+	- this let's us use the other Student constructor.
+DONE - Use the new CSC217Collections.jar and update all of the imports for the new package.
+DONE - Update CSC 216-> CSC 217 in writeup
+DONE - Update all the Course tests
+DONE - Test that GUI works
+DONE - Update design
+DONE - Update system tests
+DONE - Add . to error statement in UC 0, E2.
+
+# Lab 10
+DONE - Changes from Lab 1
+DONE - Update requirements to remove UC2, S9 and S10
+	- from Lab 01 and Lab 02
+	- this let's us use the other Student constructor.
+DONE - Use the new CSC217Collections.jar and update all of the imports for the new package.
+DONE - Update CSC 216-> CSC 217 in writeup
+DONE - Update all the Course tests
+DONE - Test that GUI works
+DONE - Update design
+DONE - Add . to error statement in UC 0, E2.
+
+# Lab 11
+DONE - Changes from Lab 1
+DONE - Update requirements to remove UC2, S9 and S10
+	- from Lab 01 and Lab 02
+	- this let's us use the other Student constructor.
+DONE - Use the new CSC217Collections.jar and update all of the imports for the new package.
+DONE - Update CSC 216-> CSC 217 in writeup
+DONE - Test that GUI works
+DONE - Update design
+DONE - Add . to error statement in UC 0, E2.
+
+# Lab 12
+DONE - Changes from Lab 1
+
+
+# Future Changes
+ - Update yellow boxes to mentions
+ - Update requirements to match how we're doing it in the Guided Projects
+	- and for consistency
+ - Update the base project to remove the Javadoc error.
+ - Update all the packages to use csc217 - at some point!
+ - Update CSC 216 to CSC 217 in writeups for Labs 0, 1, 2
+ - Fix the Student Directory functionality to consider both upper and lower bound tests and add explicit tests for that.
+ - Fix the StudentRegistrationPanel to list the logged in student
+ - Fix the StudentRegistrationPanel to update the course listing info when first accessing the panel.

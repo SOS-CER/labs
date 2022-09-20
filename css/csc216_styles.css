@@ -1,0 +1,471 @@
+/* Page layout styles */
+
+.leftCol {
+	min-width: 54px;
+	max-width: 54px;
+	width: 10%;
+	border-style: none;
+	background-color: #ffffff;
+	color: #000000;
+	padding: 0px;
+	margin: auto;
+	clear: left;	/* Do not allow anything to float to the left of this */
+	float: left;
+	
+}
+
+.leftCol div, img {
+	padding: 0px 0px 8px 0px;
+}
+
+.rightCol {
+	position: relative;
+	border-style: none;
+	background-color: #ffffff;
+	color: #000000;
+	height: 100%;
+	padding: 2 px;
+	margin-left: 60px;
+	clear: right;
+	text-align: left;
+	font-family: "UniversRoman", Arial, sans-serif;	/* Can comment out to inherit page fonts */
+}
+
+.contentRow {
+	position: relative;
+	width: 90%;
+	border-style: none;
+	background-color: #ffffff;
+	color: #000000;
+	padding: 8px 20px 8px 20px;
+	
+	/* Fixes the issue where a floated element has content taller than the container holding it */
+	overflow: auto;
+}
+
+.navRow {
+	position: relative;
+	width: 100%;
+	border-style: none;
+	background-color: #ffffff;
+	color: #000000;
+	padding: 20px 0px 20px 0px;
+	
+	/* Fixes the issue where a floated element has content taller than the container holding it */
+	overflow: auto;
+}
+
+.prevPage {
+	border-style: none;
+	background-color: #ffffff;
+	color: #000000;
+	height: 100%;
+	padding-left: 20px;
+	margin: auto;
+	clear: left;	/* Do not allow anything to float to the left of this */
+	float: left;
+	font-family: "UniversRoman", Arial, sans-serif;	/* Can comment out to inherit page fonts */
+}
+
+.nextPage {
+	position: relative;
+	background-color: #ffffff;
+	color: #000000;
+	height: 100%;
+	padding-right: 20px;
+	margin-left: auto;
+	clear: right;
+	float: right;
+	font-family: "UniversRoman", Arial, sans-serif;	/* Can comment out to inherit page fonts */	
+}
+
+.prevPage a, .nextPage a{
+	color: #cc0000;
+}
+
+.prevPage a:link, .prevPage a:visited, .nextPage a:link, .nextPage a:visited {
+	text-decoration: none;
+}
+
+.prevPage a:hover, .prevPage a:active, .nextPage a:hover, .nextPage a:active {
+	text-decoration: underline;
+}
+
+/* Left and Right arrow shapes based on code from Shapes of CSS examples: https://css-tricks.com/examples/ShapesOfCSS/ */
+.triangle-left {
+	width: 0;
+	height: 0;
+	border-top: 6px solid transparent;
+	border-right: 10px solid #cc0000;
+	border-bottom: 6px solid transparent;
+	position: relative;
+	float: left;
+	margin-right: 10px;
+	margin-top: 0.25em;
+}
+
+.triangle-right {
+	width: 0;
+	height: 0;
+	border-top: 6px solid transparent;
+	border-left: 10px solid #cc0000;
+	border-bottom: 6px solid transparent;
+	position: relative;
+	float: right;
+	margin-left: 10px;
+	margin-top: 0.25em;
+}
+
+
+
+.wrapper h1 code, .wrapper h2 code, .wrapper h3 code, .wrapper h4 code, code {
+	font-family:Monaco, Bitstream Vera Sans Mono, Lucida Console, Terminal;
+	color:#333;
+  	font-size:1.0em;
+}
+
+.wrapper {
+	background-color: #ffffff;
+	width: 100%;
+	margin: 0 auto;
+	font-family: "UniversRoman", Arial, sans-serif;
+	color: #000000;
+}
+
+.wrapper h1 {
+	color: #000000;
+}
+
+.wrapper h2 {
+	color: #000000;
+}
+
+.wrapper h3 {
+	color: #000000;
+}
+
+hr {
+	width:100%;
+	height:1px;
+	background: #DDD;
+	margin-top: 10px;
+}
+
+
+body {
+	background-color: #bbb;
+	font-family: "UniversRoman", Arial, sans-serif;
+	color: #000000;
+}
+
+body h1 {
+	font-size: 3.0em;
+	color: #000;
+	padding: 0px;
+	margin: 0px;
+}
+
+body h2 {
+	font-size: 2.0em;
+	color: #333;
+	padding: 0px;
+	margin: 0px;
+}
+
+body h3 {
+	font-size: 1.2em;
+	color: #555;
+	padding: 0px 0px 2px 0px;
+	margin: 0px;
+}
+
+img {
+	padding: 5px 10px 0px 0px;
+}
+
+.breadcrumbs {
+	font-family: "UniversLight", Arial, sans-serif;
+	color: #000;
+	font-size: 1.1em;
+	padding: 24px 0px 10px 0px;
+}
+
+.breadcrumbs a {
+	color: #000;
+}
+
+.breadcrumbs a:link, .breadcrumbs a:visited {
+	text-decoration: none;
+}
+
+.breadcrumbs a:hover, .breadcrumbs a:active {
+	text-decoration: underline;
+}
+
+
+/* All of the icon div classes */
+
+.requirementsIcon {
+	background-image: url("../media/images/CSC216_RequirementsIcon.png");
+	background-size: 50px 50px;
+	background-repeat: no-repeat;
+	background-position: center;
+	min-width: 50px;
+	min-height: 50px;
+	width: 50px;
+	height: 50px;
+}
+
+.designIcon {
+	background-image: url("../media/images/CSC216_DesignIcon.png");
+	background-size: 50px 50px;
+	background-repeat: no-repeat;
+	background-position: center;
+	min-width: 50px;
+	min-height: 50px;
+	width: 50px;
+	height: 50px;
+}
+
+.implementationIcon {
+	background-image: url("../media/images/CSC216_ImplementationIcon.png");
+	background-size: 50px 50px;
+	background-repeat: no-repeat;
+	background-position: center;
+	min-width: 50px;
+	min-height: 50px;
+	width: 50px;
+	height: 50px;
+}
+
+.unitTestIcon {
+	background-image: url("../media/images/CSC216_UnitTestIcon.png");
+	background-size: 50px 50px;
+	background-repeat: no-repeat;
+	background-position: center;
+	min-width: 50px;
+	min-height: 50px;
+	width: 50px;
+	height: 50px;
+}
+
+.systemTestIcon {
+	background-image: url("../media/images/CSC216_SystemTestIcon.png");
+	background-size: 50px 50px;
+	background-repeat: no-repeat;
+	background-position: center;
+	min-width: 50px;
+	min-height: 50px;
+	width: 50px;
+	height: 50px;
+}
+
+.deploymentIcon {
+	background-image: url("../media/images/CSC216_DeploymentIcon.png");
+	background-size: 50px 50px;
+	background-repeat: no-repeat;
+	background-position: center;
+	min-width: 50px;
+	min-height: 50px;
+	width: 50px;
+	height: 50px;
+}
+
+.ccToolIcon {
+	background-image: url("../media/images/CSC216_toolCats_CC_Icon.png");
+	background-size: 50px 50px;
+	background-repeat: no-repeat;
+	background-position: center;
+	min-width: 50px;
+	min-height: 50px;
+	width: 50px;
+	height: 50px;
+}
+
+.ccToolIcon-white {
+	background-image: url("../media/images/CSC216_toolCats_white_CC_Icon.png");
+	background-size: 50px 50px;
+	background-repeat: no-repeat;
+	background-position: center;
+	min-width: 50px;
+	min-height: 50px;
+	width: 50px;
+	height: 50px;
+}
+
+.ciToolIcon {
+	background-image: url("../media/images/CSC216_toolCats_CI_Icon.png");
+	background-size: 50px 50px;
+	background-repeat: no-repeat;
+	background-position: center;
+	min-width: 50px;
+	min-height: 50px;
+	width: 50px;
+	height: 50px;
+}
+
+.ciToolIcon-white {
+	background-image: url("../media/images/CSC216_toolCats_white_CI_Icon.png");
+	background-size: 50px 50px;
+	background-repeat: no-repeat;
+	background-position: center;
+	min-width: 50px;
+	min-height: 50px;
+	width: 50px;
+	height: 50px;
+}
+
+.dnToolIcon {
+	background-image: url("../media/images/CSC216_toolCats_DN_Icon.png");
+	background-size: 50px 50px;
+	background-repeat: no-repeat;
+	background-position: center;
+	min-width: 50px;
+	min-height: 50px;
+	width: 50px;
+	height: 50px;
+}
+
+.dnToolIcon-white {
+	background-image: url("../media/images/CSC216_toolCats_white_DN_Icon.png");
+	background-size: 50px 50px;
+	background-repeat: no-repeat;
+	background-position: center;
+	min-width: 50px;
+	min-height: 50px;
+	width: 50px;
+	height: 50px;
+}
+
+.dtToolIcon {
+	background-image: url("../media/images/CSC216_toolCats_DT_Icon.png");
+	background-size: 50px 50px;
+	background-repeat: no-repeat;
+	background-position: center;
+	min-width: 50px;
+	min-height: 50px;
+	width: 50px;
+	height: 50px;
+}
+
+.dtToolIcon-white {
+	background-image: url("../media/images/CSC216_toolCats_white_DT_Icon.png");
+	background-size: 50px 50px;
+	background-repeat: no-repeat;
+	background-position: center;
+	min-width: 50px;
+	min-height: 50px;
+	width: 50px;
+	height: 50px;
+}
+
+
+.ideToolIcon {
+	background-image: url("../media/images/CSC216_toolCats_IDE_Icon.png");
+	background-size: 50px 50px;
+	background-repeat: no-repeat;
+	background-position: center;
+	min-width: 50px;
+	min-height: 50px;
+	width: 50px;
+	height: 50px;
+}
+
+.ideToolIcon-white {
+	background-image: url("../media/images/CSC216_toolCats_white_IDE_Icon.png");
+	background-size: 50px 50px;
+	background-repeat: no-repeat;
+	background-position: center;
+	min-width: 50px;
+	min-height: 50px;
+	width: 50px;
+	height: 50px;
+}
+
+.plToolIcon {
+	background-image: url("../media/images/CSC216_toolCats_PL_Icon.png");
+	background-size: 50px 50px;
+	background-repeat: no-repeat;
+	background-position: center;
+	min-width: 50px;
+	min-height: 50px;
+	width: 50px;
+	height: 50px;
+}
+
+.plToolIcon-white {
+	background-image: url("../media/images/CSC216_toolCats_white_PL_Icon.png");
+	background-size: 50px 50px;
+	background-repeat: no-repeat;
+	background-position: center;
+	min-width: 50px;
+	min-height: 50px;
+	width: 50px;
+	height: 50px;
+}
+
+.saToolIcon {
+	background-image: url("../media/images/CSC216_toolCats_SA_Icon.png");
+	background-size: 50px 50px;
+	background-repeat: no-repeat;
+	background-position: center;
+	min-width: 50px;
+	min-height: 50px;
+	width: 50px;
+	height: 50px;
+}
+
+.saToolIcon-white {
+	background-image: url("../media/images/CSC216_toolCats_white_SA_Icon.png");
+	background-size: 50px 50px;
+	background-repeat: no-repeat;
+	background-position: center;
+	min-width: 50px;
+	min-height: 50px;
+	width: 50px;
+	height: 50px;
+}
+
+.ttToolIcon {
+	background-image: url("../media/images/CSC216_toolCats_TT_Icon.png");
+	background-size: 50px 50px;
+	background-repeat: no-repeat;
+	background-position: center;
+	min-width: 50px;
+	min-height: 50px;
+	width: 50px;
+	height: 50px;
+}
+
+.ttToolIcon-white {
+	background-image: url("../media/images/CSC216_toolCats_white_TT_Icon.png");
+	background-size: 50px 50px;
+	background-repeat: no-repeat;
+	background-position: center;
+	min-width: 50px;
+	min-height: 50px;
+	width: 50px;
+	height: 50px;
+}
+
+.vcToolIcon {
+	background-image: url("../media/images/CSC216_toolCats_VC_Icon.png");
+	background-size: 50px 50px;
+	background-repeat: no-repeat;
+	background-position: center;
+	min-width: 50px;
+	min-height: 50px;
+	width: 50px;
+	height: 50px;
+}
+
+.vcToolIcon-white {
+	background-image: url("../media/images/CSC216_toolCats_white_VC_Icon.png");
+	background-size: 50px 50px;
+	background-repeat: no-repeat;
+	background-position: center;
+	min-width: 50px;
+	min-height: 50px;
+	width: 50px;
+	height: 50px;
+}
