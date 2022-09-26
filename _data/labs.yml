@@ -108,7 +108,7 @@ lab00open: true
 lab01open: true
 lab02open: true
 lab03open: true
-lab04open: false
+lab04open: true
 lab05open: false
 lab06open: false
 lab07open: false

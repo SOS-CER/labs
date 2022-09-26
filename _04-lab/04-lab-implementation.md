@@ -1,13 +1,14 @@
 ---
 title: CSC 217 Lab 04 - Design
 tags: [software engineering, software lifecycle, CS2, CSC 217, Lab04]
-description: CSC 217 Lab 04 - Integrating `WolfScheduler` into `PackScheduler`
+description: Integrating `WolfScheduler` into `PackScheduler`
 navigation: on
 pagegroup: 04-lab
 ---
-# CSC 217 Lab 04: Integrating `WolfScheduler` into `PackScheduler`
-{% include iconHeader.html type="implementation" %}
+
 To integrate `WolfScheduler` into `PackScheduler`, you will focus on three packages: 
+
+{% include iconHeader.html type="implementation" %}
 
   * `edu.ncsu.csc216.pack_scheduler.course`: integrate classes from `WolfScheduler`
   * `edu.ncsu.csc216.pack_scheduler.io`: integrate classes from `WolfScheduler`

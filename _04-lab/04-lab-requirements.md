@@ -1,13 +1,15 @@
 ---
 title: CSC 217 Lab 04 - Design
 tags: [software engineering, software lifecycle, CS2, CSC 217, Lab04]
-description: CSC 217 Lab 04 - Requirements
+description: Requirements
 navigation: on
 pagegroup: 04-lab
 ---
-# CSC 217 Lab 04: Requirements
-{% include iconHeader.html type="requirements" %}
+
+
 `PackScheduler` is a course registration system for a university, similar to the system in MyPackPortal that you use to register for your classes.  You'll work on implementing a system that provides the functionality for admitted students to register for courses that are taught by faculty.  The courses will have enrollment caps and waitlists.  
+
+{% include iconHeader.html type="requirements" %}
 
 For this lab, you'll focus possible designs for integrating components of `WolfScheduler` (i.e., Courses) into `PackScheduler` and how to handle the new requirements related to registrar and student registration functionality.
 

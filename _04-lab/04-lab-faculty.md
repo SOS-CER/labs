@@ -1,13 +1,14 @@
 ---
 title: CSC 217 Lab 04 - Design
 tags: [software engineering, software lifecycle, CS2, CSC 217, Lab04]
-description: CSC 217 Lab 04 - Designing `PackScheduler` Faculty Functionality
+description: Designing `PackScheduler` Faculty Functionality
 navigation: on
 pagegroup: 04-lab
 ---
-# CSC 217 Lab 04: Designing `PackScheduler` Faculty Functionality
-{% include iconHeader.html type="design" %}
+
 Now that you have compared two designs and integrated two systems to meet a provided design, you should propose your own design for the faculty functionality.
+
+{% include iconHeader.html type="design" %}
 
 
 ## Creating your Design

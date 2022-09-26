@@ -68,4 +68,23 @@
       page: 03-lab-test
     - title: Deploy
       page: 03-lab-deploy
-      
+- 04-lab:
+  id: 04-lab
+  title: Lab 04 - Design
+  directory: _04-lab/
+  progressBar: on
+  tasks: 
+    - title: Requirements
+      page: 04-lab-requirements
+    - title: Design Comparison
+      page: 04-lab-design-comparison
+    - title: Design
+      page: 04-lab-design
+    - title: Integrating `WolfScheduler` into `PackScheduler`
+      page: 04-lab-implementation
+    - title: Testing
+      page: 04-lab-test
+    - title: Designing `PackScheduler` Faculty Functionality
+      page: 04-lab-faculty
+    - title: Deploy
+      page: 04-lab-deploy

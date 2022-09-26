@@ -1,13 +1,15 @@
 ---
 title: CSC 217 Lab 04 - Design
 tags: [software engineering, software lifecycle, CS2, CSC 217, Lab04]
-description: CSC 217 Lab 04 - Deployment
+description: Deployment
 navigation: on
 pagegroup: 04-lab
 ---
-# CSC 217 Lab 04: Deployment
-{% include iconHeader.html type="deployment" %}
+
+
 When you deploy your software, you release it to your customer.  For CSC 217, that means your work is ready for evaluation by the teaching staff.  We will evaluate your work against the [Lab 04 rubric](#lab-rubric).  As you compare your submission against the rubric and make your final push to GitHub, you will complete these final tasks:
+
+{% include iconHeader.html type="deployment" %}
 
   * You have met the [requirements](04-lab-requirements) and [design](04-lab-design) for the [Lab 04 `PackScheduler`](../04-lab) project.
   * You have a green check on [your lab section's Jenkins](#lab-deadlines--jenkins-servers) (No test failures and no static analysis notifications).

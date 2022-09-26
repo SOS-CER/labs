@@ -1,11 +1,9 @@
 ---
-title: CSC 217 Lab 04 - Design
+title: CSC 217 Lab 04
 tags: [software engineering, software lifecycle, CS2, CSC 217, Lab04]
-description: CSC 217 Lab 04 - Design
-navigation: on
+description: Design
 pagegroup: 04-lab
 ---
-# CSC 217 Lab 04: Design
 The current `StudentDirectory` portion of `PackScheduler` implements the concept of a list of students, but is lacking functionality expected in a registration system - like courses and registering for courses!  However, you have part of that functionality in your `WolfSchedler` project.  For this lab, you will explore a design that integrates the two systems and then extend them to a successful implementation of the Lab 04 requirements.
 
 

@@ -1,13 +1,16 @@
 ---
 title: CSC 217 Lab 04 - Design
 tags: [software engineering, software lifecycle, CS2, CSC 217, Lab04]
-description: CSC 217 Lab 04 - Design Comparison
+description: Design Comparison
 navigation: on
 pagegroup: 04-lab
 ---
-# CSC 217 Lab 04: Design Comparison
-{% include iconHeader.html type="design" %}
+
 There are two proposed designs for the integrated and extended requirements for `PackScheduler`. You must compare and contrast the designs and give a recommendation to the manager on which design should be implemented.
+
+{% include iconHeader.html type="design" %}
+
+
 
 [You will complete your design comparison and recommendation in Google Forms](https://docs.google.com/a/ncsu.edu/forms/d/e/1FAIpQLSfWC4_tOrLRQAXT1B--Bv5tTEUh-vTnb-wWreWKxMWJl-7ZFw/viewform). 
 

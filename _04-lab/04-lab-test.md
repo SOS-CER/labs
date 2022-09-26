@@ -1,13 +1,14 @@
 ---
 title: CSC 217 Lab 04 - Design
 tags: [software engineering, software lifecycle, CS2, CSC 217, Lab04]
-description: CSC 217 Lab 04 - Testing
+description: Testing
 navigation: on
 pagegroup: 04-lab
 ---
-# CSC 217 Lab 04: Testing
-{% include iconHeader.html type="unitTest,systemTest" %}
+
 As with any software development project, you must test your code to know if it meets the [requirements](04-lab-requirements) and [design](04-lab-design).  You should have been running your tests cases as you integrated the two systems together.  Now, you will focus on unit testing for coverage.
+
+{% include iconHeader.html type="unitTest,systemTest" %}
 
 
 ## `PackScheduler` Coverage
