@@ -1,14 +1,16 @@
 ---
 title: CSC 217 Lab 10 - Iterators
 tags: [software engineering, software lifecycle, CS2, CSC 217, Lab10]
-description: CSC 217 Lab 10 - Requirements
+description: Requirements
 navigation: on
 pagegroup: 10-lab
 ---
 
-# CSC 217 Lab 10 Requirements
-{% include iconHeader.html type="requirements" %}
+
+
 `PackScheduler` is a course registration system for a university, similar to the system in MyPackPortal that you use to register for your classes.  You'll work on implementing a system that provides the functionality for admitted students to register for courses that are taught by faculty.  The courses will have enrollment caps and waitlists.  
+
+{% include iconHeader.html type="requirements" %}
 
 <font color="red">For Lab 10, you will add faculty functionality at all layers of the system </font>[[UC0]](#uc0), [[UC18]](#uc18), [[UC19]](#uc19), [[UC20]](#uc20), [[UC21]](#uc21), [[UC22]](#uc22), and in the new [[Faculty Records]](#faculty-records) and [[Invalid Faculty Records]](#invalid-faculty-records) data format.
 

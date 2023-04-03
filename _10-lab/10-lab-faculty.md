@@ -1,14 +1,16 @@
 ---
 title: CSC 217 Lab 10 - Iterators
 tags: [software engineering, software lifecycle, CS2, CSC 217, Lab10]
-description: CSC 217 Lab 10 - Implement and Test `Faculty`
+description: Implement and Test `Faculty`
 navigation: on
 pagegroup: 10-lab
 ---
 
-# CSC 217 Lab 10 Implement and Test `Faculty`
-{% include iconHeader.html type="implementation,unitTest" %}
+
+
 The `Faculty` class represents an individual faculty record.  The `Faculty` class is a "plain old java object" (POJO) consisting mostly of getters and setters.  `Faculty` extends `User` and its implementation is similar to the implementation of `Student`.  The main difference is that `Faculty` objects have a number of courses they can teach in a given semester (between 1 and 3 inclusive) rather keeping track of credits as `Student`s do.
+
+{% include iconHeader.html type="implementation,unitTest" %}
 
 
 ## Create `FacultyTest`

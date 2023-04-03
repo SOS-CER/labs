@@ -1,14 +1,16 @@
 ---
 title: CSC 217 Lab 10 - Iterators
 tags: [software engineering, software lifecycle, CS2, CSC 217, Lab10]
-description: CSC 217 Lab 10 - Design
+description: Design
 navigation: on
 pagegroup: 10-lab
 ---
 
-# CSC 217 Lab 10 Design
-{% include iconHeader.html type="design" %}
+
+
 The design for Lab 10 is shown below.  To follow the development paradigm of *additive change*, the custom `LinkedList` will be implemented in the `edu.ncsu.csc216.pack_scheduler.util` package.  The `Faculty` functionality will be added as separate classes throughout the major user packages and integrated into `RegistrationManager` in a manner similar to `Student` functionality.  Use `Student` and associated classes as a guide about how to integrate `Faculty` at every level.
+
+{% include iconHeader.html type="design" %}
 
 {% include image.html file="images/Faculty_Lab10_ClassDiagram.gif" caption="Figure: Lab 10 Faculty in PackScheduler" %} 
 

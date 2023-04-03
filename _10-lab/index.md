@@ -1,11 +1,10 @@
 ---
-title: CSC 217 Lab 10 - Iterators
+title: CSC 217 Lab 10
 tags: [software engineering, software lifecycle, CS2, CSC 217, Lab10]
-description: CSC 217 Lab 10 - Iterators
+description: Iterators
 navigation: on
 pagegroup: 10-lab
 ---
-# CSC 217 Lab 10 - Iterators
 The student registration functionality is complete.  `Student`s can register for classes and be added to a waitlist.  Now, you need to implement the `Faculty` side of the system.  The `Faculty` portion of the system will mimic the `Student` functionality with a few differences.
   
 

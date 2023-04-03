@@ -1,14 +1,16 @@
 ---
 title: CSC 217 Lab 10 - Iterators
 tags: [software engineering, software lifecycle, CS2, CSC 217, Lab10]
-description: CSC 217 Lab 10 - Implement and Test `FacultyRecordIO`
+description: Implement and Test `FacultyRecordIO`
 navigation: on
 pagegroup: 10-lab
 ---
 
-# CSC 217 Lab 10 Implement and Test `FacultyRecordIO`
-{% include iconHeader.html type="implementation,unitTest" %}
+
+
 Like `StudentRecordIO`, `FacultyRecordIO` provides `static` methods that support reading in faculty records from a file and writing faculty records to a file.  A faculty record is defined in the [[Faculty Records data format]](10-lab-requirements#faculty-records).  The read functionality supports [[UC19]](10-lab-requirements#uc19) and the write functionality supports [[UC20]](10-lab-requirements#uc20).
+
+{% include iconHeader.html type="implementation,unitTest" %}
 
 The two required public methods for `FacultyRecordIO` are similar to `StudentRecordIO`.  The only difference is that the methods return a `LinkedList` (the specialized class you just created) rather than `ArrayList`.
 

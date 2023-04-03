@@ -1,25 +1,25 @@
 # Semester
-semester: Fall 2022
+semester: Fall 2023
 
 # Jenkins
 jenkins:
-  s200: https://csc217-200-jenk.csc.ncsu.edu/
+  #s200: https://csc217-200-jenk.csc.ncsu.edu/
   s201: https://csc217-201-jenk.csc.ncsu.edu/
   s202: https://csc217-202-jenk.csc.ncsu.edu/
   s203: https://csc217-203-jenk.csc.ncsu.edu/
   s204: https://csc217-204-jenk.csc.ncsu.edu/
-  s210: https://csc217-210-jenk.csc.ncsu.edu/
-  s211: https://csc217-211-jenk.csc.ncsu.edu/
+  #s210: https://csc217-210-jenk.csc.ncsu.edu/
+  #s211: https://csc217-211-jenk.csc.ncsu.edu/
   #s212: https://csc217-212-jenk.csc.ncsu.edu/
   s213: https://csc217-213-jenk.csc.ncsu.edu/
-  s214: https://csc217-214-jenk.csc.ncsu.edu/
-  s220: https://csc217-220-jenk.csc.ncsu.edu/
+  #s214: https://csc217-214-jenk.csc.ncsu.edu/
+  #s220: https://csc217-220-jenk.csc.ncsu.edu/
   s221: https://csc217-221-jenk.csc.ncsu.edu/
-  #s222: https://csc217-222-jenk.csc.ncsu.edu/
+  s222: https://csc217-222-jenk.csc.ncsu.edu/
   s223: https://csc217-223-jenk.csc.ncsu.edu/
   s224: https://csc217-224-jenk.csc.ncsu.edu/
   s231: https://csc217-231-jenk.csc.ncsu.edu/
-  s601: https://csc217-601-jenk.csc.ncsu.edu/
+  s601: https://csc217-231-jenk.csc.ncsu.edu/
   #s251: https://csc217-601-jenk.csc.ncsu.edu/
   #s651: https://csc217-601-jenk.csc.ncsu.edu/
   #s252: https://csc217-201-jenk.csc.ncsu.edu/
@@ -29,72 +29,72 @@ collab-check: https://go.ncsu.edu/csc216-collaboration
   
 # Deadlines
 lab00:
-  mon00:  9/6/2022
-  tues00: 9/6/2022
-  wed00:  9/6/2022
+  mon00:  1/19/2023
+  tues00: 1/19/2023
+  wed00:  1/19/2023
 lab01:
-  mon01:  9/12/2022
-  tues01: 9/13/2022
-  wed01:  9/14/2022
+  mon01:  1/30/2023
+  tues01: 1/31/2023
+  wed01:  2/1/2023
 lab02:
-  mon02:  9/19/2022
-  tues02: 9/20/2022
-  wed02:  9/21/2022
+  mon02:  2/6/2023
+  tues02: 2/7/2023
+  wed02:  2/8/2023
 lab03:
-  mon03:  9/26/2022
-  tues03: 9/27/2022
-  wed03:  9/28/2022
+  mon03:  2/13/2023
+  tues03: 2/14/2023
+  wed03:  2/15/2023
 lab04:
-  mon04:  10/3/2022
-  tues04: 10/4/2022
-  wed04:  10/5/2022
+  mon04:  2/20/2023
+  tues04: 2/21/2023
+  wed04:  2/22/2023
 lab05:
-  mon05:  10/17/2022
-  tues05: 10/18/2022
-  wed05:  10/19/2022
+  mon05:  2/27/2023
+  tues05: 2/28/2023
+  wed05:  3/1/2023
 lab06:
-  mon06:  10/24/2022
-  tues06: 10/25/2022
-  wed06:  10/26/2022
+  mon06:  3/6/2023
+  tues06: 3/7/2023
+  wed06:  3/8/2023
 lab07:
-  mon07:  10/31/2022
-  tues07: 11/1/2022
-  wed07:  11/2/2022
+  mon07:  3/20/2023
+  tues07: 3/21/2023
+  wed07:  3/22/2023
 lab08:
-  mon08:  11/7/2022
-  tues08: 11/8/2022
-  wed08:  11/9/2022
+  mon08:  3/27/2023
+  tues08: 3/28/2023
+  wed08:  3/29/2023
 lab09:
-  mon09:  11/14/2022
-  tues09: 11/15/2022
-  wed09:  11/16/2022
+  mon09:  4/3/2023
+  tues09: 4/4/2023
+  wed09:  4/5/2023
 lab10:
-  mon10:  11/28/2022
-  tues10: 11/29/2022
-  wed10:  11/30/2022
+  mon10:  4/10/2023
+  tues10: 4/11/2023
+  wed10:  4/12/2023
 lab11:
-  mon11:  12/5/2022
-  tues11: 12/5/2022
-  wed11:  12/5/2022
+  mon11:  4/20/2023
+  tues11: 4/20/2023
+  wed11:  4/20/2023
 #lab12:
 #  mon12: DROPPED
 #  tues12: DROPPED
 #   wed12: 7/30/2021
 
 # Times
-lab200time: 8:00am
+#lab200time: 8:00am
 lab201time: 10:30am
 lab202time: 12:40pm
 lab203time: 2:50pm
 lab204time: 5:10pm
-lab210time: 8:20am
-lab211time: 10:30am
+#lab210time: 8:20am
+#lab211time: 10:30am
 #lab212time: 12:40pm
 lab213time: 2:50pm
-lab214time: 5:10pm
-lab220time: 8:00am
+#lab214time: 5:10pm
+#lab220time: 8:00am
 lab221time: 10:30am
-#lab222time: 12:40pm
+lab222time: 12:40pm
 lab223time: 2:50pm
 lab224time: 5:10pm
 lab231time: 11:45pm
@@ -114,6 +114,6 @@ lab06open: false
 lab07open: false
 lab08open: false
 lab09open: false
-lab10open: false
+lab10open: true
 lab11open: false
 

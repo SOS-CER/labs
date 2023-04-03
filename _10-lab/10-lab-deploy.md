@@ -1,14 +1,15 @@
 ---
 title: CSC 217 Lab 10 - Iterators
 tags: [software engineering, software lifecycle, CS2, CSC 217, Lab10]
-description: CSC 217 Lab 10 - Deployment
+description: Deployment
 navigation: on
 pagegroup: 10-lab
 ---
 
-# CSC 217 Lab 10 Deployment
-{% include iconHeader.html type="deployment" %}
+
 When you deploy your software, you release it to your customer.  For CSC 217, that means your work is ready for evaluation by the teaching staff.  We will evaluate your work against the [Lab 10 rubric](#lab-rubric).  As you compare your submission against the rubric and make your final push to GitHub, you should complete these final checks:
+
+{% include iconHeader.html type="deployment" %}
 
   * You have met the [requirements](10-lab-requirements.md) and [design](10-lab-design.md) for the [Lab 10 `PackScheduler`](../10-lab.md) project.
   * You have a green ball on [your lab section's Jenkins](#lab-deadlines--jenkins-servers) (No test failures and no static analysis notifications).

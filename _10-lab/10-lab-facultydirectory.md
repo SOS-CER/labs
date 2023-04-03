@@ -1,14 +1,15 @@
 ---
 title: CSC 217 Lab 10 - Iterators
 tags: [software engineering, software lifecycle, CS2, CSC 217, Lab10]
-description: CSC 217 Lab 10 - Implement and Test `FacultyDirectory`
+description: Implement and Test `FacultyDirectory`
 navigation: on
 pagegroup: 10-lab
 ---
 
-# CSC 217 Lab 10 Implement and Test `FacultyDirectory`
-{% include iconHeader.html type="implementation,unitTest" %}
+
 `FacultyDirectory` represents a list of `Faculty` in your system.  Use `StudentDirectory` and `StudentDirectoryTest` as models for implementing `FacultyDirectory`.
+
+{% include iconHeader.html type="implementation,unitTest" %}
 
 
 ## Create `FacultyDirectoryTest`

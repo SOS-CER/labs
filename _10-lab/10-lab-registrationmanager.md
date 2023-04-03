@@ -1,14 +1,15 @@
 ---
 title: CSC 217 Lab 10 - Iterators
 tags: [software engineering, software lifecycle, CS2, CSC 217, Lab10]
-description: CSC 217 Lab 10 - Update `RegistrationManager`
+description: Update `RegistrationManager`
 navigation: on
 pagegroup: 10-lab
 ---
 
-# CSC 217 Lab 10 Update `RegistrationManager`
-{% include iconHeader.html type="implementation,unitTest" %}
+
 `RegistrationManager` is expected to maintain a `FacultyDirectory` in addition to the `StudentDirectory` and `CourseCatalog`.  Additionally, that means `Faculty` should be able to log into the system.  The following changes will integrate `FacultyDirectory` into `RegistrationManager`.
+
+{% include iconHeader.html type="implementation,unitTest" %}
 
 
 ## Update `RegistrationManager` State

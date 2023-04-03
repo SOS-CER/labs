@@ -1,14 +1,15 @@
 ---
 title: CSC 217 Lab 10 - Iterators
 tags: [software engineering, software lifecycle, CS2, CSC 217, Lab10]
-description: CSC 217 Lab 10 - Implement and Test Custom `LinkedList`
+description: Implement and Test Custom `LinkedList`
 navigation: on
 pagegroup: 10-lab
 ---
 
-# CSC 217 Lab 10 Implement and Test Custom `LinkedList`
-{% include iconHeader.html type="implementation,unitTest" %}
+
 The design of the faculty directory functionality calls for a custom implementation of a linked list that doesn't allow for null elements or duplicate elements as defined by the `equals()` method.
+
+{% include iconHeader.html type="implementation,unitTest" %}
 
 You will use test driven development to implement the custom `LinkedList`.  Each section below describes the methods that you will be implementing.
 

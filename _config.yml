@@ -2,7 +2,7 @@ organization: SOS-CER
 repository: SOS-CER/labs
 contact: sarah_heckman@ncsu.edu
 repo: labs
-baseurl: https://sos-cer.github.io/labs
+baseurl: /labs
 github: [metadata]
 title: CSC 217 Labs
 

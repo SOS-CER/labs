@@ -1,14 +1,15 @@
 ---
 title: CSC 217 Lab 10 - Iterators
 tags: [software engineering, software lifecycle, CS2, CSC 217, Lab10]
-description: CSC 217 Lab 10 - Testing
+description: Testing
 navigation: on
 pagegroup: 10-lab
 ---
 
-# CSC 217 Lab 10 Testing
-{% include iconHeader.html type="unitTest,systemTest" %}
+
 As with any software development project, you must test your code to know if it meets the [requirements](10-lab-requirements) and [design](10-lab-design).  You should have unit tested your new code as you added functionality functionality.  Now you will ensure sufficient coverage and system test `PackScheduler`.
+
+{% include iconHeader.html type="unitTest,systemTest" %}
 
 
 ## `PackScheduler` Coverage
